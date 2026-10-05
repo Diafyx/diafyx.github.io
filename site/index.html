@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Diafyx · Tools that make complex systems see-through</title>
+  <meta name="description" content="Diafyx is an independent studio building tools that make complex systems easier to see, understand, and reason about.">
+  <link rel="canonical" href="https://diafyx.github.io/">
+  <meta name="theme-color" content="#090d18">
+  <meta name="color-scheme" content="dark">
+
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preload" href="/assets/fonts/sora-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Diafyx">
+  <meta property="og:url" content="https://diafyx.github.io/">
+  <meta property="og:title" content="Diafyx · Tools that make complex systems see-through">
+  <meta property="og:description" content="An independent studio building tools that make complex systems easier to see, understand, and reason about.">
+  <meta property="og:image" content="https://diafyx.github.io/assets/img/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="The Diafyx mark, a letter D with a trace line passing through it, next to the tagline: Tools that make complex systems see-through.">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Diafyx",
+    "url": "https://diafyx.github.io/",
+    "logo": "https://diafyx.github.io/apple-touch-icon.png",
+    "email": "diafyx@gmail.com",
+    "sameAs": ["https://github.com/Diafyx"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="Diafyx home">
+        <img src="/assets/img/mark.svg" alt="" width="40" height="28">
+        <span>Diafyx</span>
+      </a>
+      <nav aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="#work">Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://github.com/Diafyx">GitHub</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <p class="eyebrow">Independent software studio</p>
+      <h1 id="hero-title">Make complex systems <span class="accent">see&#8209;through</span>.</h1>
+      <p class="lede">Diafyx builds tools that show what really happens inside databases and distributed systems: every step, traced from real source code and explained in plain English.</p>
+      <div class="actions">
+        <a class="button button-primary" href="https://tracequest-d0m.pages.dev">Try TraceQuest</a>
+        <a class="button button-ghost" href="https://github.com/Diafyx">Diafyx on GitHub</a>
+      </div>
+      <div class="trace" aria-hidden="true">
+        <span class="trace-line"></span>
+        <span class="trace-pulse"></span>
+      </div>
+    </section>
+
+    <section id="work" class="section container" aria-labelledby="work-title">
+      <h2 id="work-title" class="section-title">Work</h2>
+      <article class="project">
+        <div class="project-head">
+          <h3>TraceQuest</h3>
+          <span class="badge">In development</span>
+        </div>
+        <p>Watch real systems run, one source-level step at a time. TraceQuest walks through the exact internal execution path of database and distributed-systems operations, animated as a journey you can play, pause, step through and rewind.</p>
+        <ul class="tags" aria-label="Systems covered">
+          <li>PostgreSQL</li>
+          <li>Apache Cassandra</li>
+          <li>MVCC</li>
+          <li>WAL</li>
+          <li>Replication</li>
+          <li>Paxos</li>
+        </ul>
+        <a class="link-arrow" href="https://tracequest-d0m.pages.dev">Open the live demo <span aria-hidden="true">&rarr;</span></a>
+      </article>
+    </section>
+
+    <section class="section container" aria-labelledby="principles-title">
+      <h2 id="principles-title" class="section-title">How we build</h2>
+      <ul class="principles">
+        <li>
+          <h3>Traced, not imagined</h3>
+          <p>Every step maps to real functions, files and data structures in the system's own source code.</p>
+        </li>
+        <li>
+          <h3>Explain the why</h3>
+          <p>Each step comes with a plain-English explanation of what is happening and why it matters.</p>
+        </li>
+        <li>
+          <h3>Small and careful</h3>
+          <p>A few focused tools, built and maintained with care, rather than many half-finished ones.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="about" class="section container" aria-labelledby="about-title">
+      <h2 id="about-title" class="section-title">About</h2>
+      <div class="about">
+        <p><strong>Diafyx</strong> comes from the Greek <em lang="grc-Latn">dia</em>, &ldquo;through&rdquo;, and <em lang="grc-Latn">phainein</em>, &ldquo;to show&rdquo;: the same roots as <em>diaphanous</em>. Showing what happens <em>through</em> a system, from the request going in to the result coming out, is the whole idea.</p>
+        <p>Diafyx is an independent studio run by <a href="https://www.sepurisaikrishna.com/">Sepuri Sai Krishna</a>, a data engineer who spends a lot of time inside the internals of data and distributed systems.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section container" aria-labelledby="contact-title">
+      <h2 id="contact-title" class="section-title">Contact</h2>
+      <ul class="contact-list">
+        <li><span class="contact-label">Email</span> <a href="mailto:diafyx@gmail.com">diafyx@gmail.com</a></li>
+        <li><span class="contact-label">GitHub</span> <a href="https://github.com/Diafyx">github.com/Diafyx</a></li>
+        <li><span class="contact-label">Security</span> <a href="https://github.com/Diafyx/.github/blob/main/SECURITY.md">Report a vulnerability</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Diafyx</p>
+      <ul class="footer-links">
+        <li><a href="https://github.com/Diafyx/.github/blob/main/CODE_OF_CONDUCT.md">Code of Conduct</a></li>
+        <li><a href="https://github.com/Diafyx/.github/blob/main/SECURITY.md">Security</a></li>
+        <li><a href="https://github.com/Diafyx/diafyx.github.io">Site source</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

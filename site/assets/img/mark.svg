@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="44 200 936 624" role="img" aria-labelledby="t">
+  <title id="t">Diafyx</title>
+  <path fill="#F2F5FA" d="M286.72 225.28H450.56A286.72 286.72 0 0 1 450.56 798.72H286.72Z"/>
+  <path fill="#1E2840" d="M373.76 312.32H450.56A199.68 199.68 0 0 1 450.56 711.68H373.76Z"/>
+  <path stroke="#D6A650" stroke-width="30" d="M81.92 512H942.08"/>
+  <circle cx="81.92" cy="512" r="34" fill="#D6A650"/>
+  <circle cx="942.08" cy="512" r="34" fill="#D6A650"/>
+  <circle cx="512" cy="512" r="46" fill="#1E2840" stroke="#D6A650" stroke-width="28"/>
+</svg>

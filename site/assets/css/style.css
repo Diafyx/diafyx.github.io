@@ -334,9 +334,15 @@ h1 {
   font-size: 0.8rem;
 }
 
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 28px;
+  margin-top: 24px;
+}
+
 .link-arrow {
   display: inline-block;
-  margin-top: 24px;
   font-weight: 600;
   text-decoration: none;
 }
